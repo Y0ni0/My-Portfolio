@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personl Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Yonathan.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>  
+            <div class="header-text">
+                <p>Full Stack Developer - MERN  </p>
+                <h1>Hi, I'm <span>Yonathan</span><br>Samuel From Addis Ababa</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------- About -------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Motivated software engineering graduate from Addis Ababa Science and Technology University with a
+                        passion for developing innovative software programs that can make a real impact. Focused and
+                        quick-learner with an eagerness to advance and expand overall computer related skill set through
+                        targeted mentorship and challenging projects. Enjoys working collaboratively but also can run with
+                        projects independently. Passionate about the prospect of finding tech related solutions to real world
+                        problems and currently on the look out for opportunities to make a real impact.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Develpment</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - current</span><br>UI/UX Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin Digital LTD.</li>
+                                <li><span>2016 - 2017</span><br>Internship at eKart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+</body>
+</html>
