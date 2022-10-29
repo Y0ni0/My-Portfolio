@@ -8,8 +8,23 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: #1a0e13;
     color: #fff;
+}
+.showcase::before,
+.showcase::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background:#1a0e13;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+
 }
 #header{
     width: 100%;
@@ -65,11 +80,12 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #b54769;
+    color: #4d212e;
 }
 
 /* ------------------ About ----------------- */
 #about{
+    margin-top: 50px;
     padding: 40px 0;
     color: #ababab;
     margin-bottom: 0;
