@@ -70,8 +70,9 @@ nav ul li a:hover::after{
 
 /* ------------------ About ----------------- */
 #about{
-    padding: 80px 0;
+    padding: 40px 0;
     color: #ababab;
+    margin-bottom: 0;
 }
 .row{
     display: flex;
@@ -89,6 +90,10 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -97,13 +102,21 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    color: #ababab;
+    font-weight: 500;
 }
+
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    transition: transform 0.5s;
+}
+.tab-links:hover{
+    color: #b54769;
+    transform: translateY(-5px);
 }
 .tab-links::after{
     content: '';
@@ -119,12 +132,13 @@ nav ul li a:hover::after{
     width: 50%;
 }
 .tab-contents ul li{
-    list-style: none;
+    list-style: disc;
     margin: 10px 0;
+    margin-left: 30px;
 }
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 14px;
+    font-size: 20px;
 }
 .tab-contents{
     display: none;
@@ -132,7 +146,33 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-
+.tab-contents i{
+    color: #ababab;
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+.tab-contents i:hover{ 
+    color: #b54769;
+    transform: translateY(-5px);
+}
+.tab-contents iconify-icon{
+    color: #ababab;
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+.tab-contents iconify-icon:hover{
+    color: #b54769;
+    transform: translateY(-5px);
+}
+.tab-contents div{
+    color: #ababab;
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+.tab-contents div:hover{
+    color: #b54769;
+    transform: translateY(-5px);
+}
 /* --------------- Services ------------------ */
 #services{
     padding: 30px 0;
