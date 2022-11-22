@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personl Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9970003169.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</head>
+<body>
+    <section class="showcase">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Yonathan.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>  
+            <div class="header-text">
+                <p>Full Stack Developer - MERN  </p>
+                <h1>Hi, I'm <span>Yonathan Samuel</span> <br>From Addis Ababa, Ethiopia.</h1>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- ------------- About -------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/About me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Motivated software engineering graduate from Addis Ababa Science and Technology University with a
+                        passion for developing innovative software programs that can make a real impact. Focused and
+                        quick-learner with an eagerness to advance and expand overall computer related skill set through
+                        targeted mentorship and challenging projects. Enjoys working collaboratively but also can run with
+                        projects independently. Passionate about the prospect of finding tech related solutions to real world
+                        problems and currently on the look out for opportunities to make a real impact.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Computing & Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>UI/UX Design | <iconify-icon icon="file-icons:adobe-xd" class="icon"></iconify-icon> AdobeXD | <i class="fa-brands fa-figma"></i> Figma </li>
+                                <li><i class="fa-brands fa-html5"></i> HTML5 | <i class="fa-brands fa-css3"></i> CSS3</li>
+                                <li><i class="fa-brands fa-square-js"></i> JavaScript | <i class="fa-brands fa-react"></i> React | Redux </li>
+                                <li><i class="fa-brands fa-node-js"></i> NodeJs | Express</li>
+                                <li> <div class="icon">C++</div> </li>
+                                <li><i class="fa-brands fa-java"></i> Java</li>
+                                <li><iconify-icon icon="simple-icons:kotlin" class="icon"></iconify-icon> Kotlin</li>
+                                <li><iconify-icon icon="bxl:mongodb" class="icon"></iconify-icon> MongoDB | <iconify-icon icon="grommet-icons:mysql" class="icon"></iconify-icon> MySQL</li>
+                                <li><iconify-icon icon="bxl:typescript" class="icon"></iconify-icon> Typescript</li>
+                                <li><iconify-icon icon="file-icons:adobe-photoshop" class="icon"></iconify-icon> Photoshop | <iconify-icon icon="simple-icons:adobepremierepro" class="icon"></iconify-icon> Premiere </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Tena Healthcare Technologies Startup, Addis Ababa</span>
+                                    <br><br>Full Stack Developer / CTO
+                                    <br><br>&emsp; Built a Telemedicine Platform for mothers that supports video and audio call using Web RTC.
+                                    <br><br>&emsp; Kotlin  |  React  |  NodeJs |  MySQL  |  Git  |  GitHub  |  Trello
+                                    <br><br>&emsp; Feb, 2021 - May, 2021</li>
+                                <li><span>St. John Baptist De La Salle Catholic School, Addis Ababa</span>
+                                    <br><br>Freelance / Full Stack Developer
+                                    <br><br>&emsp; Built a Receipt Management system for automatic printing of monthly School fee receipt. 
+                                    <br><br>&emsp;Java |  HTML  |  CSS  |  JavaScript  |  PHP  |  MySQL  |  Git  |  GitHub
+                                    <br><br>&emsp; Jan, 2021 - June, 2022
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor of Science / Software engineering</span>
+                                    <br><br>&emsp;Addis Ababa Science and Technology University, Addis Ababa, Ethiopia
+                                    <br><br>&emsp;September 2018 - June 2022</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------ Services --------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p></p>
+                          <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>creating the user interface for an app, website, or other interactive media. 
+                        Collaborating with product managers and engineers to gather requirements from users before designing ideas.</p>
+                          <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Back-End Development</h2>
+                    <p></p>
+                          <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------ Portfolio ------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/CreativeET.png">
+                    <div class="layer">
+                        <h3>CreativeET</h3>
+                        <p>Local Stock Photo Sharing Platform</p>
+                        <a href="https://github.com/Y0ni0/creativEt"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/CreativeET2.png">
+                    <div class="layer">
+                        <h3>Laptop Ordering Platform</h3>
+                        <p>E-Commerce</p>
+                        <a href="https://github.com/Y0ni0/laptop-ordering-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/CreativeET3.png">
+                    <div class="layer">
+                        <h3>Exercise Tracker</h3>
+                        <p>A basic excercise tracker app implemented with the MERN stack</p>
+                        <a href="https://github.com/Y0ni0/mern-exercise-tracker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------- Contact ---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> yonathan.samuel.sija@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +251929015244</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/yonathan-samuel-60731a21a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWseMicd5QQG4NXdBgOJh4g%3D%3D">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Y0ni0"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Yonathan Samuel Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Yonathan Made with HTML,CSS & JS </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <Script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </Script>
+    <form name="submit-to-google-sheet">
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx4wUSFldIQA-maTjrn6_AKEJOgf0Rtxoea97w7RxEyATod06aEF_zOfz_SVPGboBrd/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2500)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
