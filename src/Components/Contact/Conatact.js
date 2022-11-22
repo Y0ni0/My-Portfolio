@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Conatact = () => {
+function Conatact() {
     return (
         <div>Conatact</div>
     )
