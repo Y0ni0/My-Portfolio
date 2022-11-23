@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import img from './Assets/bg-texture.png';
 import fontsUrl from './Assets/fonts/Poppins-Regular.ttf';
 
@@ -52,10 +52,7 @@ const GlobalStyle = createGlobalStyle`
     }
    
    /* General Styles */
-    .container{
-        width: var(--container-width-lg);
-        margin: 0 auto;
-    }
+    
     h1, h2, h3, h4, h5{
         font-weight: 500;
     }
@@ -128,4 +125,5 @@ const GlobalStyle = createGlobalStyle`
     }
     
 `
+
 export default GlobalStyle
