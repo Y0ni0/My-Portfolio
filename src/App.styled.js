@@ -29,18 +29,18 @@ const GlobalStyle = createGlobalStyle`
     ::-webkit-scrollbar{
         display: none;
     }
-    @font-face {
-       font-family: "Poppins", sans-serif;
-       src: url('./assets/fonts/Poppins-Light') format('ttf');
-       font-family: 'Poppins-Regular';
-       src: url('./assets/fonts/Poppins-Regular') format('ttf');
-       font-family: 'Poppins-Medium';
-       src: url('./assets/fonts/Poppins-Medium') format('ttf');
-       font-family: 'Poppins-SemiBold';
-       src: url('./assets/fonts/Poppins-SemiBold') format('ttf');
-    }
+    
     body{
-
+      
+    font-family: "Poppins", sans-serif;
+    /* src: url('./assets/fonts/Poppins-Light') format('ttf');
+    font-family: 'Poppins-Regular';
+    src: url('./assets/fonts/Poppins-Regular') format('ttf');
+    font-family: 'Poppins-Medium';
+    src: url('./assets/fonts/Poppins-Medium') format('ttf');
+    font-family: 'Poppins-SemiBold'; */
+    //src: url('./assets/fonts/Poppins-SemiBold') format('ttf');
+    
     }
    
 `
