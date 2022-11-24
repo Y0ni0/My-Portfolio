@@ -1,28 +1,31 @@
 import React from 'react'
 import CTA from './CTA'
-import { StyledHeader, StyledHeaderContainer, MainContainer } from './Header.styled'
+import { StyledHeader, StyledHeaderContainer, MainContainer, StyledImage } from './Header.styled'
 import ME from '../../Assets/My-picture1.jpg';
 import HeaderSocials from './HeaderSocials';
 
 
 function Header() {
     return (
+
         <StyledHeader>
-            <MainContainer>
-                <StyledHeaderContainer >
+            <StyledHeaderContainer >
+                <MainContainer>
                     <h5>Hello I'm</h5>
                     <h1>Yonathan Samuel</h1>
                     <h5 className='text-light'>FullStack Developer</h5>
                     <CTA />
+
                     <HeaderSocials />
 
-                    <div className='me'>
+                    <StyledImage>
                         <img src={ME} alt='me' />
-                    </div>
+                    </StyledImage>
                     <a href='#contact' className='scroll__down'>Scroll Down</a>
-                </StyledHeaderContainer>
-            </MainContainer>
+                </MainContainer>
+            </StyledHeaderContainer>
         </StyledHeader>
+
 
     )
 }

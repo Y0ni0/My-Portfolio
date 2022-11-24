@@ -105,25 +105,7 @@ const GlobalStyle = createGlobalStyle`
         object-fit: cover;
     }
 
-    /* ===== MEDIA QUERIES (Medium Devices) ======*/
-    @media screen and (max-width: 1024px) {
-       .container{
-        width: var(--container-width-md);
-       } 
-       section{
-        margin-top: 6rem;
-       }
-    }
-    /* ===== MEDIA QUERIES (Small Devices) ======*/
-    @media screen and (max-width: 600px) {
-       .container{
-        width: var(--container-width-sm);
-       } 
-       section >h2{
-        margin-bottom: 2rem;
-       }
-    }
-    
+
 `
 
 export default GlobalStyle
