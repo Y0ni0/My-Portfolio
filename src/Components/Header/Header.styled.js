@@ -70,6 +70,11 @@ export const StyledImage = styled.div`
     overflow: hidden;
    // padding: 5rem 1.5rem 1.5rem 1.5rem;
    .scroll-down{
-    
+        position: absolute;
+        right: -2.3rem;
+        bottom: 5rem;
+        transform: rotate(90deg);
+        font-weight: 200;
+        font-size: 0.9rem;
    }
 `
