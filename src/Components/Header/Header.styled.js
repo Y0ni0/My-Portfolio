@@ -69,4 +69,7 @@ export const StyledImage = styled.div`
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
    // padding: 5rem 1.5rem 1.5rem 1.5rem;
+   .scroll-down{
+    
+   }
 `
