@@ -1,22 +1,20 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-    width: var(75%);
+    width: 75%;
     margin: 0 auto;
       /* ===== MEDIA QUERIES (Medium Devices) ======*/
       @media screen and (max-width: 1024px) {
-       .container{
         width: 86%;
-       } 
+       
        section{
         margin-top: 6rem;
        }
     }
     /* ===== MEDIA QUERIES (Small Devices) ======*/
     @media screen and (max-width: 600px) {
-       .container{
+       
         width: 90%;
-       } 
        section >h2{
         margin-bottom: 2rem;
        }
@@ -25,8 +23,17 @@ export const MainContainer = styled.div`
 
 export const StyledHeader = styled.header`
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
+
+    // media query for midium screens 
+    @media screen and (max-width: 1024px) {
+        height: 68vh;
+    }
+    @media screen and (max-width: 600px) {
+        height: 100vh;
+    }
+
 `
 export const StyledHeaderContainer = styled.div`
     text-align: center;
@@ -50,7 +57,7 @@ export const StyledHeaderSocials = styled.div`
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 15rem;
+    left: 7rem;
     bottom: 3rem;
     ::after{
         content: '';
@@ -58,6 +65,10 @@ export const StyledHeaderSocials = styled.div`
         height: 4rem;
         background: #4db5ff;
     } 
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+
 `
 // image
 export const StyledImage = styled.div`
@@ -66,7 +77,7 @@ export const StyledImage = styled.div`
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
    // padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -74,10 +85,13 @@ export const StyledImage = styled.div`
 `
 export const StyledLink = styled.a`
     position: absolute;
-    right: 12rem;
+    right: 6rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 
 `

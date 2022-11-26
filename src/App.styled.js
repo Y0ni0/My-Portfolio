@@ -100,9 +100,9 @@ const GlobalStyle = createGlobalStyle`
         color: var(--color-bg);
     }
     img{
-        display: block;
-        width: 100%;
-        object-fit: cover;
+       display: block;
+       width: 100%;
+       object-fit: cover;
     }
 
 
