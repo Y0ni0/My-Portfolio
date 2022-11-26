@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import { StyledHeader, StyledHeaderContainer, MainContainer, StyledImage } from './Header.styled'
+import { StyledHeader, StyledHeaderContainer, MainContainer, StyledImage, StyledLink } from './Header.styled'
 import ME from '../../Assets/My-picture1.jpg';
 import HeaderSocials from './HeaderSocials';
 
@@ -21,7 +21,9 @@ function Header() {
                     <StyledImage>
                         <img src={ME} alt='me' />
                     </StyledImage>
-                    <a href='#contact' className='scroll__down'>Scroll Down</a>
+                    <StyledLink>
+                        <a href='#contact' className='scroll__down'>Scroll Down</a>
+                    </StyledLink>
                 </MainContainer>
             </StyledHeaderContainer>
         </StyledHeader>
