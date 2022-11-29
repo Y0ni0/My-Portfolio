@@ -82,6 +82,7 @@ export const StyledImage = styled.div`
     overflow: hidden;
    // padding: 5rem 1.5rem 1.5rem 1.5rem;
    
+   
 `
 export const StyledLink = styled.a`
     position: absolute;
