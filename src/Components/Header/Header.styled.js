@@ -70,15 +70,18 @@ export const StyledHeaderSocials = styled.div`
 `
 // image
 export const StyledImage = styled.div`
-    background: linear-gradient(#4db5ff), transparent;
+        --color-bg: #4db5ff;
+    background: linear-gradient(var(--color-bg), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 26rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 3rem;
+    margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-   // padding: 5rem 1.5rem 1.5rem 1.5rem;    
+    padding: 0rem 1.5rem 1rem 1rem; 
+    //#4db5ff
+    
 `
 export const StyledLink = styled.a`
     position: absolute;
