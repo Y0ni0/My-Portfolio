@@ -33,7 +33,6 @@ export const StyledHeader = styled.header`
     @media screen and (max-width: 600px) {
         height: 100vh;
     }
-
 `
 export const StyledHeaderContainer = styled.div`
     text-align: center;
@@ -41,8 +40,8 @@ export const StyledHeaderContainer = styled.div`
     position: relative;
 
 `
-// CTA Style
 
+// CTA Style
 export const StayledCta = styled.div`
     margin-top: 2.5rem;
     display: flex;
@@ -50,7 +49,6 @@ export const StayledCta = styled.div`
     justify-content: center;
 `
 // HeaderSocials style
-
 export const StyledHeaderSocials = styled.div`
     display: flex;
     flex-direction: column;
@@ -80,9 +78,7 @@ export const StyledImage = styled.div`
     margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-   // padding: 5rem 1.5rem 1.5rem 1.5rem;
-   
-   
+   // padding: 5rem 1.5rem 1.5rem 1.5rem;    
 `
 export const StyledLink = styled.a`
     position: absolute;
@@ -94,5 +90,4 @@ export const StyledLink = styled.a`
     @media screen and (max-width: 600px) {
         display: none;
     } 
-
 `

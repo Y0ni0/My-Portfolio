@@ -2,7 +2,9 @@ import React from 'react'
 
 function Nav() {
     return (
-        <div>Nav</div>
+        <nav>
+            <a href='#'></a>
+        </nav>
     )
 }
 
