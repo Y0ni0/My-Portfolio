@@ -5,6 +5,8 @@ function Nav() {
     return (
         <nav>
             <a href='#'><AiOutlineHome /></a>
+            <a href='#'></a>
+
         </nav>
     )
 }
