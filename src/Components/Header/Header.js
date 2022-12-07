@@ -1,7 +1,7 @@
 import React from 'react'
 import CTA from './CTA'
 import { StyledHeader, StyledHeaderContainer, MainContainer, StyledImage, StyledLink } from './Header.styled'
-import ME from '../../Assets/me4.png';
+import ME from '../../Assets/file1.png';
 import HeaderSocials from './HeaderSocials';
 
 

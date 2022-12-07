@@ -73,13 +73,13 @@ export const StyledImage = styled.div`
         --color-bg: #4db5ff;
     background: linear-gradient(var(--color-bg), transparent);
     width: 22rem;
-    height: 26rem;
+    height: 28rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 0rem 1.5rem 1rem 1rem; 
+    padding: 3rem 1.5rem 1rem 1rem; 
     //#4db5ff
     
 `
