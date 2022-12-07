@@ -61,6 +61,7 @@ const GlobalStyle = createGlobalStyle`
     }
     section{
         margin-top: 8rem;
+        height: 50vh;
     }
     section > h2, section > h5{
         text-align: center;
