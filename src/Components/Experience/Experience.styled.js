@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { v } from '../../Components/variables'
 
 export const StyledExperienceContainer = styled.div`  
     display: grid;
@@ -16,32 +17,20 @@ export const StyledExperienceContainer = styled.div`
 
 `
 export const StyledExperienceCards = styled.div`
-        --color-bg: #1f2f38;
-        --color-bg-varient: #2c2c6c;
-        --color-primary: #4db5ff;
-        --color-primary-varient: rgba(31, 69, 99, 0.664);
-        --color-white: #fff;
-        --color-light:  rgba(255, 255, 255, 0.6);
-
-        --transition: all 400ms ease;
-
-        --container-width-lg: 75%;
-        --container-width-md: 86%;
-        --container-width-sm: 90%;
-        background: var(--color-primary-varient);
+        background: ${v.__color_primary_varient};
         padding: 2.4rem 5rem;
         border-radius: 2rem;
         border: 1px solid transparent;
-        transition: var(--transition);
+        transition: ${v.__transition};
     :hover{
         background: transparent;
-        border-color: var(--color-light);
+        border-color: ${v.__color_light};
         cursor: default;
     }
     h3{
         text-align: center;
         margin-bottom: 2rem;
-        color: var(--color-primary);
+        color: ${v.__color_primary};
         font-weight: bolder;
     } 
     /* ===== MEDIA QUERIES (Medium Devices) ======*/
@@ -66,11 +55,10 @@ export const StyledExperienceContent = styled.div`
     } 
 `
 export const StyledExperienceDetails = styled.article`
-    --color-primary: #4db5ff;
     display: flex;
     gap: 1rem;
     .icons{
         margin-top: 6px;
-        color: var(--color-primary);
+        color: ${v.__color_primary};
     }
 `

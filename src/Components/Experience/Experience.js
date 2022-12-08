@@ -31,7 +31,7 @@ function Experience() {
                             </StyledExperienceDetails>
                             <StyledExperienceDetails>
                                 <BsPatchCheckFill className='icons' />
-                                <h4>React</h4>
+                                <h4>React / Redux</h4>
                             </StyledExperienceDetails>
                             <StyledExperienceDetails>
                                 <BsPatchCheckFill className='icons' />

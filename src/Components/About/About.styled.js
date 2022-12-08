@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { v } from '../../Components/variables'
 
 export const StyledAboutContainer = styled.div`
     --color-light:  rgba(255, 255, 255, 0.6);
@@ -20,7 +21,7 @@ export const StyledAboutContainer = styled.div`
 export const StyledAboutContent = styled.div`
      p{
         margin: 2rem 0 2.6rem;
-        color: var(--color-light);
+        color: ${v.__color_light};
     }
      /* ===== MEDIA QUERIES (Medium Devices) ======*/
      @media screen and (max-width: 1024px) {
@@ -38,26 +39,11 @@ export const StyledAboutContent = styled.div`
     
 `
 export const StyledImageContainer = styled.div`
-        --color-bg: #1f2f38;
-        --color-bg-varient: #2c2c6c;
         --color-primary: #4db5ff;
-        --color-primary-varient: rgba(77,181, 255, 0.4);
-        --color-white: #fff;
-        --color-light:  rgba(255, 255, 255, 0.6);
-
-        --transition: all 400ms ease;
-
-        --container-width-lg: 75%;
-        --container-width-md: 86%;
-        --container-width-sm: 90%;
-
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, 
-        transparent, 
-        var(--color-primary),
-        transparent);
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
      /* ===== MEDIA QUERIES (Medium Devices) ======*/
@@ -77,7 +63,7 @@ export const StyledImageDiv = styled.div`
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
-    transition: var(--transition);
+    transition: ${v.__transition};
 
     :hover{
         transform: rotate(0deg);
@@ -95,25 +81,20 @@ export const StyledCards = styled.div`
     }
 `
 export const Styledcard = styled.article`
-    --color-bg-varient: #2c2c6c;
-    --color-primary-varient: rgba(77,181, 255, 0.4);
-    --transition: all 400ms ease;
-    --color-primary: #4db5ff;
-    --color-light:  rgba(255, 255, 255, 0.6);
-    background: var(--color-primary-varient);
+    background: ${v.__color_primary_varient2};
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    transition: var(--transition);
+    transition: ${v.__transition};
     :hover{
         background: transparent;
-        border-color: var(--color-primary-varient);
+        border-color: ${v.__color_primary_varient2};
         cursor: default;
     }
 
     .about__icon{
-        color: var(--color-primary);
+        color: ${v.__color_primary};
         font-size: 1.4rem;
         margin-bottom: 1rem;
     }
@@ -122,7 +103,7 @@ export const Styledcard = styled.article`
     }
     small{
         font-size: 0.7rem;
-        color: var(--color-light);
+        color: ${v.__color_light};
     }
   
 `
