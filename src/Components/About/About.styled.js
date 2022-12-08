@@ -11,6 +11,11 @@ export const StyledAboutContainer = styled.div`
         grid-template-columns: 1fr;
         gap: 0;
     }
+    /* ===== MEDIA QUERIES (Small Devices) ======*/
+     @media screen and (max-width: 600px) {
+       margin: 0;
+    }
+
 `
 export const StyledAboutContent = styled.div`
      p{
@@ -77,6 +82,7 @@ export const StyledImageDiv = styled.div`
     :hover{
         transform: rotate(0deg);
     }
+
 `
 export const StyledCards = styled.div`
     display: grid;

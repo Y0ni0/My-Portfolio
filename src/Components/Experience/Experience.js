@@ -1,7 +1,8 @@
 import React from 'react'
 import { BsPatchCheckFill } from 'react-icons/bs'
 import { MainContainer } from '../Header/Header.styled'
-import { StyledExperienceContainer } from './Experience.styled'
+
+import { StyledExperienceCards, StyledExperienceContainer, StyledExperienceContent, StyledExperienceDetails } from './Experience.styled'
 
 
 function Experience() {
@@ -13,58 +14,58 @@ function Experience() {
 
 
                 <StyledExperienceContainer>
-                    <div className='experience__frontend'>
+                    <StyledExperienceCards>
                         <h3>Frontend Development</h3>
-                        <div className='experience__content'>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                        <StyledExperienceContent>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>HTML</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>CSS</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>JavaScript</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>React</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>StyledComponents</h4>
-                            </article>
-                        </div>
-                    </div>
+                            </StyledExperienceDetails>
+                        </StyledExperienceContent>
+                    </StyledExperienceCards>
 
                     {/* End of Frontend */}
-                    <div className='experience__backend'>
+                    <StyledExperienceCards>
                         <h3>Backend Development</h3>
-                        <div className='experience__content'>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                        <StyledExperienceContent>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>Node JS</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>Express</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>MongoDB</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>MySQL</h4>
-                            </article>
-                            <article className='experience__details'>
-                                <BsPatchCheckFill />
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
                                 <h4>Java</h4>
-                            </article>
-                        </div>
-                    </div>
+                            </StyledExperienceDetails>
+                        </StyledExperienceContent>
+                    </StyledExperienceCards>
                 </StyledExperienceContainer>
 
             </section>

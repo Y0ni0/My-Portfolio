@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import img from './Assets/bg-texture.png';
 import fontsUrl from './Assets/fonts/Poppins-Regular.ttf';
 
@@ -60,8 +60,8 @@ const GlobalStyle = createGlobalStyle`
         font-size: 2.5rem;
     }
     section{
-        margin-top: 8rem;
-        height: 50vh;
+        margin-top: 4rem;
+        
     }
     section > h2, section > h5{
         text-align: center;

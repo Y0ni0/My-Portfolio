@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     width: 75%;
     margin: 0 auto;
+   
       /* ===== MEDIA QUERIES (Medium Devices) ======*/
       @media screen and (max-width: 1024px) {
-        width: 86%;
+        width: 86%; 
        
        section{
         margin-top: 6rem;
