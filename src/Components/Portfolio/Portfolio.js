@@ -22,7 +22,36 @@ const data = [
         title: 'Charts templates & infographics in figma',
         github: 'https://github.com',
         demo: 'https://driblle.com/shots'
-    }
+    },
+    {
+        id: 3,
+        image: IMG3,
+        title: 'Charts templates & infographics in figma',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    },
+    {
+        id: 4,
+        image: IMG4,
+        title: 'Charts templates & infographics in figma',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'Charts templates & infographics in figma',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    },
+    {
+        id: 6,
+        image: IMG6,
+        title: 'Charts templates & infographics in figma',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    },
+
 ]
 
 export default function Portfolio() {
@@ -33,66 +62,22 @@ export default function Portfolio() {
                 <h2>Portfolio</h2>
 
                 <StyledPortfolioContainer>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
-                    <StyledPortfolioItems>
-                        <StyledPortfolioImage>
-                            <img src={IMG1} alt="" />
-                        </StyledPortfolioImage>
-                        <h3>This is a Portfolio Item Title</h3>
-                        <StyledPortfolioCTA>
-                            <a href='https://github.com' className='btn'>Github</a>
-                            <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
-                        </StyledPortfolioCTA>
-                    </StyledPortfolioItems>
+                    {
+                        data.map(({ id, image, title, github, demo }) => {
+                            return (
+                                <StyledPortfolioItems>
+                                    <StyledPortfolioImage key={id}>
+                                        <img src={image} alt={title} />
+                                    </StyledPortfolioImage>
+                                    <h3>{title}</h3>
+                                    <StyledPortfolioCTA>
+                                        <a href={github} className='btn'>Github</a>
+                                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    </StyledPortfolioCTA>
+                                </StyledPortfolioItems>
+                            )
+                        })
+                    }
 
                 </StyledPortfolioContainer>
             </section>
