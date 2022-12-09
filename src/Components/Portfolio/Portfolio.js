@@ -8,6 +8,23 @@ import IMG5 from '../../Assets/portfolio5.png'
 import IMG6 from '../../Assets/portfolio6.jpg'
 import { StyledPortfolioContainer, StyledPortfolioCTA, StyledPortfolioImage, StyledPortfolioItems } from './Portfolio.styled'
 
+const data = [
+    {
+        id: 1,
+        image: IMG1,
+        title: 'Crypto Currency Dashboard & Financial Visualization',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    },
+    {
+        id: 2,
+        image: IMG2,
+        title: 'Charts templates & infographics in figma',
+        github: 'https://github.com',
+        demo: 'https://driblle.com/shots'
+    }
+]
+
 export default function Portfolio() {
     return (
         <MainContainer>
