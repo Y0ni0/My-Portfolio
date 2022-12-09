@@ -17,7 +17,8 @@ export const StyledNav = styled.nav`
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.5rem 2rem;
+    margin-bottom: 0.8rem;
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -39,7 +40,7 @@ export const StyledNav = styled.nav`
         background: rgba(0, 0, 0, 0.3);
     }
     a.active{
-        background: var(--color-bg);
-        color: var(--color-white);
+        background: var(--color-primary);
+        color: var(--color-bg);
     }
 `

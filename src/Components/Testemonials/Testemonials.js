@@ -47,7 +47,7 @@ export default function Testemonials() {
                                         <SwiperSlide>
                                             <StyledTesimonial>
                                                 <StyledClientAvatar key={index}>
-                                                    <img src={avatar} />
+                                                    <img src={avatar} alt='avatar' />
                                                 </StyledClientAvatar>
                                                 <h5>{name}</h5>
                                                 <small>
