@@ -32,6 +32,7 @@ export const StyledHeader = styled.header`
     }
     @media screen and (max-width: 600px) {
         height: 100vh;
+        width: 100%;
     }
 `
 export const StyledHeaderContainer = styled.div`
@@ -73,7 +74,7 @@ export const StyledImage = styled.div`
         --color-bg: #4db5ff;
     background: linear-gradient(var(--color-bg), transparent);
     width: 22rem;
-    height: 28rem;
+    height: 40rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -81,6 +82,9 @@ export const StyledImage = styled.div`
     overflow: hidden;
     padding: 3rem 1.5rem 1rem 1rem; 
     //#4db5ff
+    @media screen and (max-width: 600px) {
+        border-radius: 15rem 15rem 0 0;
+    }
     
 `
 export const StyledLink = styled.a`

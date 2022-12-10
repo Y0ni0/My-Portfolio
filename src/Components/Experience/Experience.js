@@ -37,6 +37,10 @@ function Experience() {
                                 <BsPatchCheckFill className='icons' />
                                 <h4>StyledComponents</h4>
                             </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
+                                <h4>Typescript</h4>
+                            </StyledExperienceDetails>
                         </StyledExperienceContent>
                     </StyledExperienceCards>
 
@@ -44,6 +48,14 @@ function Experience() {
                     <StyledExperienceCards>
                         <h3>Backend Development</h3>
                         <StyledExperienceContent>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
+                                <h4>Java</h4>
+                            </StyledExperienceDetails>
+                            <StyledExperienceDetails>
+                                <BsPatchCheckFill className='icons' />
+                                <h4>C++</h4>
+                            </StyledExperienceDetails>
                             <StyledExperienceDetails>
                                 <BsPatchCheckFill className='icons' />
                                 <h4>Node JS</h4>
@@ -59,10 +71,6 @@ function Experience() {
                             <StyledExperienceDetails>
                                 <BsPatchCheckFill className='icons' />
                                 <h4>MySQL</h4>
-                            </StyledExperienceDetails>
-                            <StyledExperienceDetails>
-                                <BsPatchCheckFill className='icons' />
-                                <h4>Java</h4>
                             </StyledExperienceDetails>
                         </StyledExperienceContent>
                     </StyledExperienceCards>
