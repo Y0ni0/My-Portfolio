@@ -25,19 +25,19 @@ function About() {
                             <Styledcard>
                                 <FaAward className='about__icon' />
                                 <h5>Experience</h5>
-                                <small>3+ Years Working</small>
+                                <small>1+ Year in Web Development</small>
                             </Styledcard>
 
                             <Styledcard>
                                 <FiUsers className='about__icon' />
-                                <h5>Clients</h5>
-                                <small>200+ WorldWide</small>
+                                <h5>Programming Languages</h5>
+                                <small>12+ languages</small>
                             </Styledcard>
 
                             <Styledcard>
                                 <VscFolderLibrary className='about__icon' />
                                 <h5>Projects</h5>
-                                <small>80+ completed</small>
+                                <small>10+ completed</small>
                             </Styledcard>
                         </StyledCards>
                         <p> Motivated software engineering graduate from Addis Ababa Science and Technology University with a passion for developing innovative software programs that can make a real impact.

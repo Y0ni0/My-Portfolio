@@ -18,23 +18,23 @@ function Services() {
                         <StyledServiceList>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Illustrating design ideas using storyboards, process flows and sitemaps</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Designing graphic user interface elements, like menus, tabs and widgets</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Build page navigation buttons and search fields</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Develop UI mockups and prototypes that clearly illustrate how sites function and look like</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Create original graphic designs like images, sketches and tables</p>
                             </li>
                         </StyledServiceList>
                     </StyledServices>
@@ -47,23 +47,27 @@ function Services() {
                         <StyledServiceList>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Determining the structure and design of web pages.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Striking a balance between functional and aesthetic design.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Ensuring web design is optimized for smartphones.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Building reusable code for future use.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Optimizing web pages for maximum speed and scalability.</p>
+                            </li>
+                            <li>
+                                <BiCheck className='service__list-icon' />
+                                <p>Developing features to enhance the user experience.</p>
                             </li>
                         </StyledServiceList>
                     </StyledServices>
@@ -76,24 +80,18 @@ function Services() {
                         <StyledServiceList>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Collaborating with the front-end developers and other team members to establish objectives and design more functional,
+                                    cohesive codes to enhance the user experience.</p>
                             </li>
                             <li>
                                 <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
+                                <p>Developing ideas for new programs, products, or features by monitoring industry developments and trends.</p>
                             </li>
-                            <li>
-                                <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
-                            </li>
-                            <li>
-                                <BiCheck className='service__list-icon' />
-                                <p>Lorem ipsum dolor sit amet, consectetur elit</p>
-                            </li>
+
                         </StyledServiceList>
                     </StyledServices>
 

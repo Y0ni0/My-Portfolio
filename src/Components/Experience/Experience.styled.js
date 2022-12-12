@@ -47,7 +47,7 @@ export const StyledExperienceCards = styled.div`
 `
 export const StyledExperienceContent = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     row-gap: 1rem;
     /* ===== MEDIA QUERIES (Medium Devices) ======*/
     @media screen and (max-width: 1024px) {
