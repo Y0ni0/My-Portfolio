@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainContainer } from '../Header/Header.styled'
-import AVTR1 from '../../Assets/avatar1.jpg'
-import AVTR2 from '../../Assets/avatar2.jpg'
+import AVTR1 from '../../Assets/avatar1.png'
+import AVTR2 from '../../Assets/avatar2.png'
 import { AnotherConatiner, StyledClientAvatar, StyledTesimonial, StyledTestemonialContainer } from './Testemonials.styled'
 
 // import Swiper core and required modules
