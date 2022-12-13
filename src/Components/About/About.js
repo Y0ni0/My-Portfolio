@@ -5,6 +5,7 @@ import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { StyledAboutContainer, StyledAboutContent, Styledcard, StyledCards, StyledImageContainer, StyledImageDiv } from './About.styled'
 import { MainContainer } from '../Header/Header.styled'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function About() {
     return (
@@ -17,7 +18,8 @@ function About() {
                 <StyledAboutContainer>
                     <StyledImageContainer>
                         <StyledImageDiv>
-                            <img src={ME} alt='about' />
+                            {/* <img src={ME} alt='about' /> */}
+                            <LazyLoadImage src={ME} alt='about' effect='blur' placeholderSrc={ME} />
                         </StyledImageDiv>
                     </StyledImageContainer>
                     <StyledAboutContent>
