@@ -68,6 +68,7 @@ function Experience() {
                                 <BsPatchCheckFill className='icons' />
                                 <h4>Java</h4>
                             </StyledExperienceDetails>
+                            
                         </StyledExperienceContent>
                     </StyledExperienceCards>
                 </StyledExperienceContainer>
