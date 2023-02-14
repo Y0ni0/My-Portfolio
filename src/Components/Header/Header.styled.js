@@ -57,7 +57,7 @@ export const StyledHeaderSocials = styled.div`
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 12rem;
+    left: 10rem;
     bottom: 3rem;
     ::after{
         content: '';
@@ -96,7 +96,7 @@ export const StyledImage = styled.div`
 `
 export const StyledLink = styled.a`
     position: absolute;
-    right: 12rem;
+    right: 8rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
