@@ -73,6 +73,7 @@ export const StyledHeaderSocials = styled.div`
 export const StyledImage = styled.div`
         --color-bg: #4db5ff;
     background: linear-gradient(var(--color-bg), transparent);
+    box-shadow: black;
     width: 22rem;
     height: 40rem;
     position: absolute;
