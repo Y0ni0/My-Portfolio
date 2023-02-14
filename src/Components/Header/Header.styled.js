@@ -24,6 +24,7 @@ export const MainContainer = styled.div`
 export const StyledHeader = styled.header`
     height: 100vh;
     padding-top: 3rem;
+    padding-bottom: 20rem;
     overflow: hidden;
 
     // media query for midium screens 
@@ -38,7 +39,7 @@ export const StyledHeader = styled.header`
 export const StyledHeaderContainer = styled.div`
     text-align: center;
     height: 100%;
-    position: relative;
+    //position: relative;
 
 `
 
@@ -56,7 +57,7 @@ export const StyledHeaderSocials = styled.div`
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 7rem;
+    left: 12rem;
     bottom: 3rem;
     ::after{
         content: '';
@@ -71,17 +72,22 @@ export const StyledHeaderSocials = styled.div`
 `
 // image
 export const StyledImage = styled.div`
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
         --color-bg: #4db5ff;
     background: linear-gradient(var(--color-bg), transparent);
-    box-shadow: black;
+    box-shadow: 0 0 20px black;
     width: 22rem;
-    height: 40rem;
+    height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 3rem 1.5rem 1rem 1rem; 
+    padding: 2rem 1.5rem 1rem 1rem; 
     //#4db5ff
     @media screen and (max-width: 600px) {
         border-radius: 15rem 15rem 0 0;
@@ -90,7 +96,7 @@ export const StyledImage = styled.div`
 `
 export const StyledLink = styled.a`
     position: absolute;
-    right: 6rem;
+    right: 12rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
